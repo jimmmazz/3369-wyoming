@@ -57,14 +57,17 @@ body {
 }
 
 h1 {
+    color: #333;
     font-size: 3rem;
     font-weight: 100;
+    transform: scaleY(1.2);
 }
 
 .forsale {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 900;
     color: #9b08c0;
+    letter-spacing: 2px;
     align-self: flex-end;
     margin: .5rem 1rem 0 0;
     text-transform: uppercase;
@@ -81,7 +84,7 @@ h1 {
     grid-gap: .5rem;
     justify-items: center;
 
-    color: #333;
+    
     margin-bottom: 6rem;
     width: 100%;
 }
@@ -94,7 +97,10 @@ h1 {
 }
 
 .text {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    color: #555;
     width: 100%;
     padding: 0 1.5rem;
 }

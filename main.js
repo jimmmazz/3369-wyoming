@@ -6,20 +6,27 @@ const sliders = document.querySelectorAll('.slide-in');
 const options = {
   root: null,
   rootMargin: '0px',
-  threshold: 0.2
+  threshold: 0.25
 };
 
-const observer = new IntersectionObserver(function(entries, observer) {
+const slideInObserver = new IntersectionObserver(function(
+  entries,
+  slideInObserver
+) {
   entries.forEach(entry => {
     if (!entry.isIntersecting) {
+      console.log(entry);
       return;
     } else {
+      console.log(entry);
       entry.target.classList.add('appear');
-      observer.unobserve(entry.target);
+      slideInObserver.unobserve(entry.target);
     }
   });
-}, options);
+},
+options);
 
 sliders.forEach(slider => {
-  observer.observe(slider);
+  console.log(slider);
+  slideInObserver.observe(slider);
 });
