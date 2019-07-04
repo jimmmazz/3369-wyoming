@@ -1,6 +1,6 @@
-const container = document.querySelector('.container');
-const slideImage = document.querySelectorAll('.image');
-const slideText = document.querySelectorAll('.text');
+// const container = document.querySelector('.container');
+// const slideImage = document.querySelectorAll('.image');
+// const slideText = document.querySelectorAll('.text');
 const sliders = document.querySelectorAll('.slide-in');
 
 const options = {

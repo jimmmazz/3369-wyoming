@@ -20,8 +20,6 @@ html {
 }
 
 body {
-    padding-top: 75px;
-    
     background-color: #f4f4f4;
 }
 
@@ -31,6 +29,7 @@ body {
     position: relative;
     height: 100vh;
     overflow-x: hidden;
+    padding-top: 75px;
 }
 
 .header,
@@ -54,7 +53,8 @@ body {
     right: 10;
 
     width: 100%;
-    box-shadow: 0 .1rem 25rem rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    /* box-shadow: 0 .1rem 25rem rgba(0,0,0,.1); */
 }
 
 h1 {
