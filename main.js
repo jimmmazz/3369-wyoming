@@ -6,7 +6,7 @@ const sliders = document.querySelectorAll('.slide-in');
 const options = {
   root: null,
   rootMargin: '0px',
-  threshold: 0.15
+  threshold: 0
 };
 
 const observer = new IntersectionObserver(function(entries, observer) {
