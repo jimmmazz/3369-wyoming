@@ -31,7 +31,7 @@ sliders.forEach(slider => {
 
 //Event listener ffor gallery scroll
 
-document.querySelector('.gallery').addEventListener('click', function(e) {
+document.querySelector('.gallery').addEventListener('touchmove', function(e) {
   const whatClicked = e.target;
   console.log(whatClicked);
   if (whatClicked.nextElementSibling === null) {
